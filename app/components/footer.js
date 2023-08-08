@@ -42,7 +42,7 @@ function Footer() {
                 width = "auto"
                 height = "auto"
                 alt="gmail account"
-                className='w-14 h-14 mr-5 rounded-full p-3 flex justify-center  hover:bg-emerald-500'
+                className='w-14 h-14 mr-5 rounded-full p-3 flex justify-center hover:bg-emerald-500'
                 /> 
                 Gmail</a>
          </section>
