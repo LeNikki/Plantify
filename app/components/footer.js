@@ -11,7 +11,7 @@ function Footer() {
         <br/>
         <p> This site is made with NextJs13, TailwindCss, MongoDB and RESTful APIs</p>
         <br/>
-        <p> This is a sample site for my portfolio. Let's connect on social media!</p>
+        <p> This is a sample site for my portfolio. Let&apos;s connect on social media!</p>
         <br/>
         
          <section className='w-1/4 p-5 flex flex-row justify-around items-center'>
