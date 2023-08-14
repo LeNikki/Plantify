@@ -3,10 +3,7 @@ import { plantCollection } from "../plants"
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
-export const metadata = {
-    title: 'Shop',
-    description: 'Welcome to Plantify',
-  }
+
 export default function Shop (){
    const router = useRouter();
    
