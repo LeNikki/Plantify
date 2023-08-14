@@ -1,0 +1,27 @@
+
+
+{
+    "plantCollection" : [
+        {
+            "image": "cactus",
+            "plantName": "Cactus",
+            "price": 23,
+            "code": 23423,
+            "rating": 4.5
+        },
+       {
+            "image": "tulipWhite",
+            "plantName": "White Tulip",
+            "price": 27,
+            "code": 34523,
+            "rating": 5
+        },
+        {
+            "image": "sunflower",
+            "plantName": "Sunflower",
+            "price": 32,
+            "code": 54623,
+            "rating": 3
+        },
+    ]
+}

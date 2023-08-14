@@ -8,33 +8,34 @@ import roseclay from "../public/roseclay.jpg"
 export default function Home() {
 
   return (
-    <div className=  "w-full h-full p-10 flex flex-row justify-between">
+    <div className=  "w-full h-full p-10 items-center flex flex-col md:flex-row md:justify-between">
     <Image
      src={plant1}
-     width="full"
-     height = "full"
+     width="auto"
+     height = "auto"
      alt = "huuhuhhuhu"
-     className="rounded-lg"
+     className="rounded-lg w-48 h-auto md:w-1/2 md:h-auto "
     />
-     <div className="text-center w-full ">
-       <h1 className="text-6xl">Diverse plant resource.</h1>
+     <div className="text-center  items-center w-full ">
+      <br/>
+       <h1 className="text-3xl mt-5 md:text-6xl">Diverse plant resource.</h1>
        <br/>
        <p className="">Be one with the nature and explore the freshness these plants has to offer!</p>
-       <br/>
-       <div className = "w-full p-5 flex flex-row items-center justify-around ">
+     
+       <div className = "w-full p-5 m-3 flex flex-wrap md:flex-row items-center justify-around ">
           <Image
           src={cactus1}
           width="auto"
           height = "auto"
           alt = "cactus"
-          className="rounded-lg w-40"
+          className="rounded-lg w-24 m-3 sm:w-15 md:w-40"
           />
           <Image
           src={sunflower}
           width="auto"
           height = "auto"
           alt = "cactus"
-          className="rounded-lg w-40"
+          className="rounded-lg w-24 m-3 sm:w-15 md:w-40"
           />
           
           <Image
@@ -42,21 +43,21 @@ export default function Home() {
           width="auto"
           height = "auto"
           alt = "pinkFlower"
-          className="rounded-lg w-40"
+          className="rounded-lg w-24 m-3 sm:w-15 md:w-40"
           />
           <Image
           src={roseclay}
           width="auto"
           height = "auto"
           alt = "cactus"
-          className="rounded-lg w-40"
+          className="rounded-lg w-24 m-3 sm:w-15 md:w-40"
           />
           <Image
           src={sakura}
           width="auto"
           height = "auto"
           alt = "sakura"
-          className="rounded-lg w-40"
+          className="rounded-lg w-24 m-3 sm:w-15 md:w-40"
           />
        </div>
        <br/>

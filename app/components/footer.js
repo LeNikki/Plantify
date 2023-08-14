@@ -14,14 +14,14 @@ function Footer() {
         <p> This is a sample site for my portfolio. Let&apos;s connect on social media!</p>
         <br/>
         
-         <section className='w-1/4 p-5 flex flex-row justify-around items-center'>
+         <section className='w-full md:w-1/4 p-5 flex flex-row justify-around items-center'>
             <Link href="https://github.com/LeNikki" className='items-center flex flex-col justify-center '>
                 <Image
                 src={github}
                 width = "auto"
                 height = "auto"
                 alt="github account"
-                className='w-14 h-14 rounded-full mr-5 p-3 hover:bg-emerald-500'
+                className='w-14 h-auto rounded-full mr-5 p-3 hover:bg-emerald-500'
                 />
                 Github
             </Link>
@@ -31,7 +31,7 @@ function Footer() {
                 width = "auto"
                 height = "auto"
                 alt="linkedin account"
-                className='w-14 h-14 p-3 rounded-full mr-5 hover:bg-emerald-500'
+                className='w-14 h-auto p-3 rounded-full mr-5 hover:bg-emerald-500'
                 />
             LinkedIn
                 
@@ -42,13 +42,13 @@ function Footer() {
                 width = "auto"
                 height = "auto"
                 alt="gmail account"
-                className='w-14 h-14 mr-5 rounded-full p-3 flex justify-center hover:bg-emerald-500'
+                className='w-14 h-auto mr-5 rounded-full p-3 hover:bg-emerald-500'
                 /> 
                 Gmail</a>
          </section>
         
         <br/>
-        <Link href="https://lenikki.github.io/Satiembre-Portfolio/" className='font-bold gover:text-emerald-800'>Click here to follow my portfolio</Link>
+        <Link href="https://lenikki.github.io/Satiembre-Portfolio/" className='font-bold hover:text-emerald-800'>Click here to follow my portfolio</Link>
 
     </div>
   )

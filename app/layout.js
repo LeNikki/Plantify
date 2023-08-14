@@ -3,6 +3,8 @@ import { Inter, Poppins } from 'next/font/google'
 import Navbar from "./components/navbar.js"
 import Footer from "./components/footer.js"
 const inter = Inter({ subsets: ['latin'] })
+
+
 export const metadata = {
   title: 'Home',
   description: 'Welcome to Plantify',
